@@ -1,6 +1,11 @@
-<script setup>
+<script >
 import Apptitle from './components/Apptitle.vue'
 import Appjumbo from './components/Appjumbo.vue'
+export default {
+  components: {
+    Appjumbo, Apptitle
+  }
+}
 </script>
 
 <template>
