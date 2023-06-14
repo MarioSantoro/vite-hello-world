@@ -1,9 +1,11 @@
 <script setup>
 import Apptitle from './components/Apptitle.vue'
+import Appjumbo from './components/Appjumbo.vue'
 </script>
 
 <template>
   <Apptitle />
+  <Appjumbo />
 </template>
 
 <style scoped>
